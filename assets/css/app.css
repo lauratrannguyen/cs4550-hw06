@@ -1,0 +1,27 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+
+.App {
+  text-align: center;
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+table, th, td {
+  align-items: center;
+  width: 10%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
